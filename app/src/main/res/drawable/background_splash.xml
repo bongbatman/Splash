@@ -5,9 +5,13 @@
         android:drawable="@color/gray"/>
 
     <item>
+        <!--<scale android:drawable="@drawable/test_splash"-->
+            <!--android:scaleGravity="center"/>-->
+
         <bitmap
             android:gravity="center"
-            android:src="@mipmap/ic_launcher"/>
+            android:src="@mipmap/test_splash"
+            />
     </item>
 
 </layer-list>
