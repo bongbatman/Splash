@@ -13,5 +13,6 @@ public class App extends Application {
 
         // Don't do this! This is just so cold launches take some time
         SystemClock.sleep(TimeUnit.SECONDS.toMillis(3));
+
     }
 }

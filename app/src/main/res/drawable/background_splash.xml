@@ -2,15 +2,37 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:drawable="@color/gray"/>
+        android:drawable="@color/white"/>
 
     <item>
         <!--<scale android:drawable="@drawable/test_splash"-->
             <!--android:scaleGravity="center"/>-->
 
         <bitmap
-            android:gravity="center"
-            android:src="@mipmap/test_splash"
+            android:gravity="center_vertical"
+            android:src="@mipmap/splash_logo"
+            />
+        <!--<shape android:shape="rectangle" android:visible="true">-->
+            <!--<size android:height="120dp"-->
+                <!--android:width="80dp"/>-->
+            <!--<solid android:color="@color/gray"/>-->
+        <!--</shape>-->
+        <!--<bitmap-->
+            <!--android:gravity="center_vertical"-->
+
+            <!--android:src="@mipmap/s_text"-->
+            <!--/>-->
+
+
+    </item>
+
+    <item>
+
+        <bitmap
+            android:gravity="bottom"
+
+
+            android:src="@mipmap/s_text"
             />
     </item>
 
